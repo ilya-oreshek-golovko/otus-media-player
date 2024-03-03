@@ -6,6 +6,18 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@favoriets/*": ["./src/pages/Favoriets/*"],
+      "@feed/*": ["./src/pages/Feed/*"],
+      "@library/*": ["./src/pages/Library/*"],
+      "@player/*": ["./src/pages/Player/*"],
+      "@trending/*": ["./src/pages/Trending/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@routing/*": ["./src/pages/Routing/*"],
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
