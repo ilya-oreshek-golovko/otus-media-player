@@ -1,4 +1,4 @@
-import {MainSection} from "./style/App.styles";
+import {MainSection} from "./Home.styles";
 import { Sidebar } from "./modules";
 import { Outlet } from "react-router-dom";
 

@@ -18,9 +18,17 @@ const AvatarImg = styled.img.attrs<{srcImg? : any}>(props => ({
     height: 60px;
     object-fit: fill;
     border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px white;
+`;
+
+const ButtonsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    row-gap: .8rem;
 `;
 
 export{
     SidebarSection,
-    AvatarImg
+    AvatarImg,
+    ButtonsContainer
 }

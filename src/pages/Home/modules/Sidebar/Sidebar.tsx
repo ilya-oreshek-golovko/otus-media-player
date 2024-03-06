@@ -1,5 +1,5 @@
 import { SidebarButton } from './components';
-import { AvatarImg, SidebarSection } from './styles/Sidebar.styles';
+import { AvatarImg, ButtonsContainer, SidebarSection } from './Sidebar.styles';
 import Avatar from "@images/avatar.jpg";
 import { SiFacebookgaming } from "react-icons/si";
 import { FaFire, FaHeart  } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { TbPlayerPlayFilled } from "react-icons/tb";
 import { IoLibrary } from "react-icons/io5";
 import { FaSignOutAlt } from "react-icons/fa";
 import {PathConstants} from "@routing/routes";
-import { ISidebarButtons } from './types/types';
+import { ISidebarButtons } from '@/types/interfaces';
 
 function Sidebar() {
     const buttonsProps : ISidebarButtons = {
@@ -47,13 +47,13 @@ function Sidebar() {
     return (
         <SidebarSection>
             <AvatarImg srcImg={Avatar}/>
-            <div>
+            <ButtonsContainer>
                 <SidebarButton {...buttonsProps.favoriets}/>
                 <SidebarButton {...buttonsProps.feed}/>
                 <SidebarButton {...buttonsProps.library}/>
                 <SidebarButton {...buttonsProps.player}/>
                 <SidebarButton {...buttonsProps.trending}/>
-            </div>
+            </ButtonsContainer>
             <SidebarButton {...buttonsProps["sign-out"]}/>
         </SidebarSection>
     )

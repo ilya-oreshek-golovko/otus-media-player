@@ -6,7 +6,10 @@ interface ISidebarButtonProps{
     icon : ReactElement,//IconType, 
     route: string
 }
+interface ISidebarButtons{
+    [key : string] : ISidebarButtonProps
+}
 
 export type {
-    ISidebarButtonProps
+    ISidebarButtonProps, ISidebarButtons
 }

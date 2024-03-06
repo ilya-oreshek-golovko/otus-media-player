@@ -5,7 +5,7 @@ import {Feed} from "@feed/index";
 import {Library} from "@library/index";
 import {Player} from "@player/index";
 import {Trending} from "@trending/index";
-import { Home } from "@home/index";
+import { Home } from "@home/Home";
 
 
 const PathConstants : IPathConstants = {

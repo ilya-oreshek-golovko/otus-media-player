@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const MainSection = styled.section`
-    background-color: #c47541;
+    background-color: #E99D72;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
