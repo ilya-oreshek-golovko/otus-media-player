@@ -17,6 +17,8 @@
       "@trending/*": ["./src/pages/Trending/*"],
       "@shared/*": ["./src/shared/*"],
       "@routing/*": ["./src/pages/Routing/*"],
+      "@app/*": ["./src/pages/App/*"],
+      "@images/*": ["./src/images/*"],
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -33,6 +35,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "./index.d.ts"
   ]
 }

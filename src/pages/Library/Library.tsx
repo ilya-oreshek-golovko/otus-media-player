@@ -1,7 +1,10 @@
+import { PageContainer } from '@/styles/global.styles'
 import React from 'react'
 
 export const Library = () => {
   return (
-    <div>Library</div>
+    <PageContainer>
+      Library
+    </PageContainer>
   )
 }

@@ -1,7 +1,10 @@
+import { PageContainer } from '@/styles/global.styles'
 import React from 'react'
 
 export const Player = () => {
   return (
-    <div>Player</div>
+    <PageContainer>
+      Player
+    </PageContainer>
   )
 }

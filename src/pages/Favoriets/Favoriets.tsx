@@ -1,7 +1,9 @@
-import React from 'react'
+import { PageContainer } from '@/styles/global.styles'
 
 export const Favoriets = () => {
   return (
-    <div>Favoriets</div>
+    <PageContainer>
+      Favoriets
+    </PageContainer>
   )
 }

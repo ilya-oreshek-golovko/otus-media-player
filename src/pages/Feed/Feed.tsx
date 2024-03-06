@@ -1,7 +1,9 @@
-import React from 'react'
+import { PageContainer } from '@/styles/global.styles'
 
 export const Feed = () => {
   return (
-    <div>Feed</div>
+    <PageContainer>
+      Feed
+    </PageContainer>
   )
 }

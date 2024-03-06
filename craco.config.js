@@ -12,6 +12,8 @@ module.exports = {
       "@trending": path.resolve(__dirname, 'src', "pages", "Trending"),
       "@shared": path.resolve(__dirname, 'src', "shared"),
       "@routing": path.resolve(__dirname, 'src', "pages", "Routing"),
+      "@app": path.resolve(__dirname, 'src', "pages", "App"),
+      "@images": path.resolve(__dirname, 'src', "images")
     },
   },
 };
