@@ -24,7 +24,7 @@ function Sidebar() {
         library: {
             title: "Library",
             icon: <IoLibrary/>,
-            route: PathConstants["LIBRARY"]
+            route: PathConstants["HOME"]
         },
         player: {
             title: "Player",

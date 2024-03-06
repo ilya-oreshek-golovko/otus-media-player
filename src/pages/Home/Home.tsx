@@ -1,12 +1,10 @@
 import {MainSection} from "./style/App.styles";
-import {GlobalStyle} from "@/styles/global.styles";
 import { Sidebar } from "./modules";
 import { Outlet } from "react-router-dom";
 
-function App() {
+function Home() {
   return (
     <>
-        <GlobalStyle />
         <MainSection>
             <Sidebar />
             <Outlet  />
@@ -16,5 +14,5 @@ function App() {
 }
 
 export {
-    App
+  Home
 }

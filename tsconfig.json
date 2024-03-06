@@ -17,7 +17,7 @@
       "@trending/*": ["./src/pages/Trending/*"],
       "@shared/*": ["./src/shared/*"],
       "@routing/*": ["./src/pages/Routing/*"],
-      "@app/*": ["./src/pages/App/*"],
+      "@home/*": ["./src/pages/Home/*"],
       "@images/*": ["./src/images/*"],
     },
     "allowJs": true,

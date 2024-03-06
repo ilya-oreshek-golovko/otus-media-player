@@ -5,22 +5,22 @@ import {Feed} from "@feed/index";
 import {Library} from "@library/index";
 import {Player} from "@player/index";
 import {Trending} from "@trending/index";
-import { App } from "../App";
+import { Home } from "@home/index";
 
 
 const PathConstants : IPathConstants = {
-    "FAVORIETS": "favoriets",
-    "FEED": "feed",
-    "LIBRARY": "library",
-    "PLAYER": "player",
-    "TRENDING": "trending",
-    "APP" : "/"
+    "FAVORIETS": "/favoriets",
+    "FEED": "/feed",
+    "LIBRARY": "/",
+    "PLAYER": "/player",
+    "TRENDING": "/trending",
+    "HOME" : "/"
 }
 
 const routes : Array<RouteObject> = [
     {
-        path: PathConstants["APP"],
-        element: <App />,
+        path: PathConstants["HOME"],
+        element: <Home />,
         children: [
             {element: <Library />, index: true},
             {path: PathConstants["FAVORIETS"], element: <Favoriets />},
